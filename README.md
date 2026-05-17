@@ -19,11 +19,22 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ### 2. peco をインストール（Macの場合）
 
+[peco](https://github.com/peco/peco) はインタラクティブな絞り込みツール。`Ctrl+R` でコマンド履歴をリアルタイム検索できるようになります。
+
 ```bash
 brew install peco
 ```
 
 ### 3. zshプラグインをインストール
+
+| プラグイン | 説明 |
+|---|---|
+| zsh-syntax-highlighting | コマンドを入力中に構文ハイライトしてくれる |
+| zsh-completions | 補完候補を追加してくれる |
+| zsh-autosuggestions | 履歴から入力候補をうっすら表示してくれる |
+| zsh-history-substring-search | 入力した文字列を含む履歴を↑↓キーで検索できる |
+
+
 
 ```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
