@@ -1,0 +1,10 @@
+vim.opt.number = true         -- 行番号表示
+vim.opt.relativenumber = true -- 相対行番号
+vim.opt.tabstop = 2           -- タブ幅
+vim.opt.shiftwidth = 2        -- インデント幅
+vim.opt.expandtab = true      -- タブをスペースに変換
+vim.opt.wrap = false          -- 行の折り返しなし
+vim.opt.clipboard = "unnamedplus" -- システムクリップボードと共有
+vim.opt.ignorecase = true     -- 検索で大文字小文字を無視
+vim.opt.smartcase = true      -- 大文字を含む場合は区別
+vim.opt.termguicolors = true  -- True Color対応
