@@ -34,9 +34,12 @@
 | キー | 動作 |
 |---|---|
 | `Ctrl+Space` | 補完を手動で表示 |
-| `Tab` | 補完候補を次へ |
-| `Shift+Tab` | 補完候補を前へ |
+| `Ctrl+n` | 補完候補を次へ |
+| `Ctrl+p` | 補完候補を前へ |
 | `Enter` | 補完を確定 |
+| `Tab` | Copilot候補を確定 |
+| `Ctrl+]` | Copilot候補を却下 |
+| `Alt+]` / `Alt+[` | Copilot次/前の候補 |
 
 ## Git
 
