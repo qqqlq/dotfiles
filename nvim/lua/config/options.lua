@@ -8,3 +8,10 @@ vim.opt.clipboard = "unnamedplus" -- システムクリップボードと共有
 vim.opt.ignorecase = true     -- 検索で大文字小文字を無視
 vim.opt.smartcase = true      -- 大文字を含む場合は区別
 vim.opt.termguicolors = true  -- True Color対応
+
+-- treesitter ハイライト（Neovim 0.12以降はビルトインAPIを使う）
+vim.api.nvim_create_autocmd("FileType", {
+  callback = function()
+    pcall(vim.treesitter.start)
+  end,
+})
