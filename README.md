@@ -84,10 +84,16 @@ ln -s ~/dotfiles/nvim ~/.config/nvim
 | tokyonight.nvim | カラースキーム |
 | telescope.nvim | ファイル・文字列検索 |
 | lualine.nvim | ステータスバー |
-| nvim-treesitter | シンタックスハイライト |
+| nvim-treesitter | シンタックスハイライト（パーサー管理） |
 | mason.nvim | 言語サーバー管理 |
 | nvim-lspconfig | LSP設定 |
 | nvim-cmp | 補完UI |
+| neo-tree.nvim | ファイルツリー（サイドバー） |
+| gitsigns.nvim | git差分を左端に表示 |
+| indent-blankline.nvim | インデントガイド線 |
+| nvim-autopairs | 括弧の自動補完 |
+| Comment.nvim | コメントアウト |
+| which-key.nvim | キーバインドのヒント表示 |
 
 ### 対応言語（LSP）
 
@@ -106,6 +112,16 @@ ln -s ~/dotfiles/nvim ~/.config/nvim
 | `Space ff` | ファイル検索 |
 | `Space fg` | 文字列検索（grep） |
 | `Space fb` | バッファ検索 |
+| `Space e` | ファイルツリーの開閉 |
+| `Space w` | ファイル保存 |
+| `Space q` | 終了 |
+| `Space rn` | シンボルのリネーム |
+| `Space ca` | コードアクション |
+| `gd` | 定義へジャンプ |
+| `gr` | 参照を検索 |
+| `K` | ドキュメント表示 |
+| `[d` / `]d` | 前/次のエラーへ移動 |
+| `gcc` | 行のコメントアウト |
 | `Ctrl+Space` | 補完を手動で表示 |
 | `Tab` | 補完候補を次へ |
 | `Enter` | 補完を確定 |
