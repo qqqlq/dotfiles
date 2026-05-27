@@ -125,3 +125,4 @@ ln -s ~/dotfiles/nvim ~/.config/nvim
 | `Ctrl+Space` | 補完を手動で表示 |
 | `Tab` | 補完候補を次へ |
 | `Enter` | 補完を確定 |
+
