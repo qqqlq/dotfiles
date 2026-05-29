@@ -41,6 +41,16 @@
 | `Ctrl+]` | Copilot候補を却下 |
 | `Alt+]` / `Alt+[` | Copilot次/前の候補 |
 
+## AI補完
+
+| キー | 動作 |
+|---|---|
+| `Tab` | Supermaven候補を確定 |
+| `Ctrl+]` | Supermaven候補を却下 |
+| `Ctrl+j` | Supermaven単語単位で確定 |
+| `Alt+l` | Copilot候補を確定（Copilot Studentプラン再開後） |
+| `Alt+]` / `Alt+[` | Copilot次/前の候補 |
+
 ## Git
 
 | キー | 動作 |

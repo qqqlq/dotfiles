@@ -94,6 +94,8 @@ ln -s ~/dotfiles/nvim ~/.config/nvim
 | nvim-autopairs | 括弧の自動補完 |
 | Comment.nvim | コメントアウト |
 | which-key.nvim | キーバインドのヒント表示 |
+| supermaven-nvim | AIコード補完 |
+| copilot.lua | GitHub Copilot連携（Student plan再開待ち） |
 
 ### 対応言語（LSP）
 
